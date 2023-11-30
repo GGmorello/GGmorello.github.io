@@ -172,63 +172,52 @@ params:
     items:
       - job: "Research Assistant"
         company: "KTH - Royal Institute of Technology"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+        companyUrl: "https://www.kth.se/en"
+        date: "Jun 2023 - present"
         featuredLink:
           enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          name: "View my team's projects"
+          url: "https://github.com/ASSERT-KTH"
+        content: "Research Assistant in ASSERT the Theoretical Computer Science division, I developed a program for automatic program repair of Solidity code, enhancing smart contract development through large language models."
 
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
+      - job: "Research Assistant"
+        company: "RISE - Research Institutes of Sweden"
+        companyUrl: "https://ri.se/en"
+        date: "Apr 2023 - June 2023"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "View my project"
+          url: "https://www.portals-project.org/"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I worked as a spring intern
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          As a research intern, I contributed to the development of Portals a groundbreaking framework that unifies the Distributed Dataflow Streaming Model and Actor Model. With a focus on edge stateful serverless processing, I played a key role in porting Scala APIs to Javascript, enhancing the framework's adaptability for edge computing environments.
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+      - job: "Computer Engineer"
+        company: "CERN - European Organization for Nuclear Research"
+        companyUrl: "https://home.cern/"
+        date: "Apr 2021 - May 2022"
         info:
-          enable: false
+          enable: true
+          content: I worked as a technical student for 14 months
         featuredLink:
           enable: true
-          url: "https://example.com"
+          name: "View my project"
+          url: "https://github.com/CERN/Quantumacy"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+          Developed a Quantum Key Distribution simulator based on BB84 in Python. I designed the platform backend with peer-to-peer and client-server architectures and I integrated it into federated learning frameworks (OpenFL, Flower) and into a medical data homomorphic encryption system.
+      
+      - job: "Student Ambasssador"
+        company: "Reply"
+        companyUrl: "https://www.reply.com/en"
+        date: "Sep 2020 - May 2022"
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: "https://www.reply.com/en/people/continuous-learning-culture/ambassadors"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          I worked as a student ambassador for Reply, I created engaging content for students and I helped in Reply's events to promote its brand and culture.
 
   # Education
   education:
@@ -236,42 +225,29 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Science in Software Engineering of Distributed Systems"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "KTH - Royal Institute of Technology"
+          url: "https://www.kth.se/en"
+        date: "Aug 2022 - Jun 2024 (ongoing)"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          I focused on Data Science within the program's designated track.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
+          Anticipated thesis focuses on fine-tuning Large Language Models for synthesizing Solidity code in smart contract development.
+
+      - title: "Bachelor of Science in Computer Engineering"
+        school:
+          name: "Politecnico di Torino"
+          url: "https://www.polito.it/en"
+        date: "2018 - 2022"
+        GPA: "107 out of 110"
+        content: |-
+          Distinguished participant in the "Percorso Giovani Talenti" an excellence program recognizing the top 200 students across all courses.
+
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "Licero scientifico statale Piero Gobetti"
+          url: "https://www.lsgobettitorino.edu.it/web/"
 
   # Achievements
   achievements:
