@@ -117,7 +117,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -148,7 +148,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/me_palm.jpg"
     content: |-
       I am a software developer with a passion for new complex systems. I have a background in computer engineering and software engineering, and I have a strong interest in physics. I am currently studying as a software developer at [example org.](https://example.com) in Stockholm, Sweden. 
 
@@ -249,104 +249,99 @@ params:
           name: "Licero scientifico statale Piero Gobetti"
           url: "https://www.lsgobettitorino.edu.it/web/"
 
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: QKDSimkit
+        content: A modular Python Quantum Key Distribution simulator that emulates the BB84 protocol and provides p2p and Server-Client interfaces.
+        image: /images/projects/quantumacy.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Quantum"
+          - "Python"
+          - "FastAPI"
+          - "Cryptography"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fa fa-fa fa-newspaper-o
+            url: https://quantum.cern/news/announcement/quantumacy-project-investigating-privacy-preserving-forms-quantum-communication
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/CERN/Quantumacy/tree/main/QKDSimkit
+          - icon: fas fa-book
+            url: https://quantumacy.readthedocs.io/en/latest/
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: FrAIdge
+        content: An app that recognizes food in your fridge using Vision AI APIs and suggests recipes based on your ingredients and collaborative filtering
+        image: /images/projects/fraidge.png
         featured:
           name: Demo
           link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Python"
+          - "Redis"
+          - "Vision AI"
+          - "Collaborative Filtering"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/GGmorello/FrAIdge
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: FL_Gan
+        content: Generative adversarial networks for generating MNIST handwritten digits using different Federated Learning frameworks (OpenFL and Flower)
+        image: /images/projects/FL_Gan.jpeg
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "OpenFL"
+          - "Python"
+          - "Flower"
+          - "GANs"
+          - "Federated Learning"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/GGmorello/FL_Gan
+
+      - title: "Portals"
+        content: "A framework that unifies the Distributed Dataflow Streaming Model and Actor Model. With a focus on edge stateful serverless processing."
+        image: /images/projects/portals.png
+        badges:
+          - "Javascript"
+          - "Scala"
+          - "Actor Model"
+          - ScalaJS
+        links:
+          - icon: fab fa-github
+            url: https://github.com/portals-project/portals
+
+      - title: "github-graph"
+        content: "A project to explore the connections between GitHub repositories and visualize the results in an interactive graph."
+        image: /images/projects/github-graph.png
+        badges:
+          - "Python"
+          - "Github API"
+          - "Apache Spark"
+          - "Flask"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/GGmorello/github-graph
+          - icon: far fa-file-pdf
+            url: files/github-graph.pdf
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: gabrielemorello@protonmail.com
     btnName: Mail me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: mnqkklld # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/GGmorello
+      linkedin: https://linkedin.com/in/gabriele-morello/
+      instagram: https://instagram.com/gigi_morello
 
   # List pages like blogs and posts
   listPages:
