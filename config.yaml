@@ -127,7 +127,7 @@ params:
     title: "Gabriele."
     subtitle: "I write code"
     content: "A passionate software engineer student. I tend to make use of modern technologies to make cool projects."
-    image: /images/me.jpghu
+    image: /images/me.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
