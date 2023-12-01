@@ -127,7 +127,7 @@ params:
     title: "Gabriele."
     subtitle: "I write code"
     content: "A passionate software engineer student. I tend to make use of modern technologies to make cool projects."
-    image: /images/hero.svg
+    image: /images/me.jpghu
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -323,6 +323,21 @@ params:
             url: https://github.com/GGmorello/github-graph
           - icon: far fa-file-pdf
             url: files/github-graph.pdf
+      
+      - title: "Quantum speech recognition and synthesis"
+        content: A project that explores the use of quantum machine learning for speech recognition and synthesis, in particular Quantum CNNs, and compares it to classical approaches such as VAEs.
+        image: /images/projects/quantum-speech.png
+        badges:
+          - "Python"
+          - "Variational Autoencoders"
+          - "Speech Recognition"
+          - "Speech Synthesis"
+          - "Quantum Machine Learning"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/GGmorello/DT2119-final-project
+          - icon: far fa-file-pdf
+            url: files/quantum-speech.pdf
 
   #Contact
   contact:
