@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "files/resume.pdf"
+      url: "files/Gabriele_Morello_resume.pdf"
       download: true
       newPage: false
     socialLinks:
