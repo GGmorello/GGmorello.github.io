@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Gabriele."
-    subtitle: "I write code"
-    content: "A passionate software engineer student. I tend to make use of modern technologies to make cool projects."
+    subtitle: "Coding the future, line by line."
+    content: "I'm a passionate software engineer student. I like to make use of modern technologies to make cool projects."
     image: /images/me.jpg
     bottomImage:
       enable: true
@@ -150,7 +150,7 @@ params:
     title: "About Me"
     image: "/images/me_palm.jpg"
     content: |-
-      I am a software developer with a passion for new complex systems. I have a background in computer engineering and software engineering, and I have a strong interest in physics. I am currently studying as a software developer at [example org.](https://example.com) in Stockholm, Sweden. 
+      I am a software engineer student with a passion for complex systems. I have a background in computer engineering and software engineering, and I have a strong interest in physics. I am currently studying at [KTH](https://kth.se/en) in Stockholm, Sweden. 
 
       I am currently starting to work on my thesis on fine-tuning Large Language Models for synthesizing Solidity code in smart contract development.
 
@@ -164,6 +164,9 @@ params:
         - "Scala"
         - "Solidity"
         - "FastAPI"
+        - "Quantum Convolutional Neural Networks"
+        - "Generative Adversarial Networks"
+
 
   # Experience
   experience:
@@ -172,6 +175,7 @@ params:
     items:
       - job: "Research Assistant"
         company: "KTH - Royal Institute of Technology"
+        abbreviation: "KTH"
         companyUrl: "https://www.kth.se/en"
         date: "Jun 2023 - present"
         featuredLink:
@@ -182,6 +186,7 @@ params:
 
       - job: "Research Assistant"
         company: "RISE - Research Institutes of Sweden"
+        abbreviation: "RISE"
         companyUrl: "https://ri.se/en"
         date: "Apr 2023 - June 2023"
         featuredLink:
@@ -192,11 +197,12 @@ params:
           enable: true
           content: I worked as a spring intern
         content: |
-          As a research intern, I contributed to the development of Portals a groundbreaking framework that unifies the Distributed Dataflow Streaming Model and Actor Model. With a focus on edge stateful serverless processing, I played a key role in porting Scala APIs to Javascript, enhancing the framework's adaptability for edge computing environments.
+          As a research intern, I contributed to the development of Portals a groundbreaking framework that unifies the Distributed Dataflow Streaming Model and Actor Model with a focus on edge stateful serverless processing, I played a key role in porting Scala APIs to Javascript, enhancing the framework's adaptability for edge computing environments.
 
 
       - job: "Computer Engineer"
         company: "CERN - European Organization for Nuclear Research"
+        abbreviation: "CERN"
         companyUrl: "https://home.cern/"
         date: "Apr 2021 - May 2022"
         info:
@@ -211,6 +217,7 @@ params:
       
       - job: "Student Ambasssador"
         company: "Reply"
+        abbreviation: "Reply"
         companyUrl: "https://www.reply.com/en"
         date: "Sep 2020 - May 2022"
         featuredLink:
@@ -230,7 +237,7 @@ params:
           name: "KTH - Royal Institute of Technology"
           url: "https://www.kth.se/en"
         date: "Aug 2022 - Jun 2024 (ongoing)"
-        content: |-
+        content: 
           I focused on Data Science within the program's designated track.
 
           Anticipated thesis focuses on fine-tuning Large Language Models for synthesizing Solidity code in smart contract development.
@@ -241,7 +248,7 @@ params:
           url: "https://www.polito.it/en"
         date: "2018 - 2022"
         GPA: "107 out of 110"
-        content: |-
+        content: 
           Distinguished participant in the "Percorso Giovani Talenti" an excellence program recognizing the top 200 students across all courses.
 
       - title: "High School"
@@ -273,9 +280,6 @@ params:
       - title: FrAIdge
         content: An app that recognizes food in your fridge using Vision AI APIs and suggests recipes based on your ingredients and collaborative filtering
         image: /images/projects/fraidge.png
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
         badges:
           - "Python"
           - "Redis"
