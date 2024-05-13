@@ -261,6 +261,19 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: DISL
+        content: The largest dataset of Solidity code for training large language models. DISL is a dataset of 3.3 million smart contracts, and 500.000 uinque Solidity files.
+        image: /images/projects/disl.png
+        badges:
+          - "Solidity"
+          - "Large Language Models"
+          - "Smart Contracts"
+          - "Dataset"
+        links:
+          - icon: &#129303;
+            url: https://huggingface.co/ASSERT-KTH/DISL
+          - icon: fa fa-newspaper-o
+            url: https://arxiv.org/abs/2403.16861
       - title: QKDSimkit
         content: A modular Python Quantum Key Distribution simulator that emulates the BB84 protocol and provides p2p and Server-Client interfaces.
         image: /images/projects/quantumacy.png
@@ -270,7 +283,7 @@ params:
           - "FastAPI"
           - "Cryptography"
         links:
-          - icon: fa fa-fa fa-newspaper-o
+          - icon: fa fa-newspaper-o
             url: https://quantum.cern/news/announcement/quantumacy-project-investigating-privacy-preserving-forms-quantum-communication
           - icon: fab fa-github
             url: https://github.com/CERN/Quantumacy/tree/main/QKDSimkit
