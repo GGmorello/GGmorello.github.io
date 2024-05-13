@@ -270,7 +270,7 @@ params:
           - "Smart Contracts"
           - "Dataset"
         links:
-          - icon: &#129303;
+          - icon: "&#129303";
             url: https://huggingface.co/ASSERT-KTH/DISL
           - icon: fa fa-newspaper-o
             url: https://arxiv.org/abs/2403.16861
