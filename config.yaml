@@ -173,7 +173,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Research Assistant"
+      - job: "Research Assistant - Large Language Models"
         company: "KTH - Royal Institute of Technology"
         abbreviation: "KTH"
         companyUrl: "https://www.kth.se/en"
@@ -183,12 +183,12 @@ params:
           name: "View my team's projects"
           url: "https://github.com/ASSERT-KTH"
         content: |
-                  Research Assistant in the Theoretical Computer Science department, ASSERT research group |
+                  Research Assistant in the Theoretical Computer Science department, ASSERT research group 
                   - Collected, processed, and published the largest collection of smart contracts and Solidity code in the world
                   - Fine-tuned CodeLLAMA to generate invariants in Solidity code to enhance smart contract security, using PEFT and QLoRA
                   - Developed a program for automatic program repair of Solidity code using smartbugs and OpenAI API"
 
-      - job: "Research Assistant"
+      - job: "Research Assistant - Distributed Systems"
         company: "RISE - Research Institutes of Sweden"
         abbreviation: "RISE"
         companyUrl: "https://ri.se/en"
@@ -205,7 +205,7 @@ params:
                   - Ported Scala APIs to Javascript, to run Portals in edge computing environments.
 
 
-      - job: "Computer Engineer"
+      - job: "Software Engineer - Quantum Cryptography"
         company: "CERN - European Organization for Nuclear Research"
         abbreviation: "CERN"
         companyUrl: "https://home.cern/"
@@ -222,6 +222,18 @@ params:
                   - Developed the backend for the simulator with peer-to-peer and client-server architectures using Redis and Flask
                   - Forked gRPC and reimplemented its transport level using my simulator to provide post-quantum encryption
                   - Integrated my simulator into federated learning frameworks (OpenFL, Flower) and into a medical data homomorphic encryption system.
+     
+      - job: "Student team"
+        company: "BIT PoliTo"
+        abbreviation: "BIT PoliTo"
+        companyUrl: "https://www.linkedin.com/company/bitpolito/"
+        date: "May 2020 - May 2022"
+        content: |
+          Student team doing dissemination and development in cryptocurrencies: 
+          - speaker at the BIT PoliTO podcast
+          - implemented Schnorr signatures in Python
+          - organised several events at Politecnico di Torino
+          
       
   # Education
   education:
