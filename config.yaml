@@ -182,7 +182,11 @@ params:
           enable: true
           name: "View my team's projects"
           url: "https://github.com/ASSERT-KTH"
-        content: "Research Assistant in ASSERT the Theoretical Computer Science division, I developed a program for automatic program repair of Solidity code, enhancing smart contract development through large language models."
+        content: |
+                  Research Assistant in the Theoretical Computer Science department, ASSERT research group |
+                  - Collected, processed, and published the largest collection of smart contracts and Solidity code in the world
+                  - Fine-tuned CodeLLAMA to generate invariants in Solidity code to enhance smart contract security, using PEFT and QLoRA
+                  - Developed a program for automatic program repair of Solidity code using smartbugs and OpenAI API"
 
       - job: "Research Assistant"
         company: "RISE - Research Institutes of Sweden"
@@ -197,7 +201,8 @@ params:
           enable: true
           content: I worked as a spring intern
         content: |
-          As a research intern, I contributed to the development of Portals a groundbreaking framework that unifies the Distributed Dataflow Streaming Model and Actor Model with a focus on edge stateful serverless processing, I played a key role in porting Scala APIs to Javascript, enhancing the framework's adaptability for edge computing environments.
+                  - Contributed to the development of Portals, a framework that unifies the distributed dataflow streaming model and actor model
+                  - Ported Scala APIs to Javascript, to run Portals in edge computing environments.
 
 
       - job: "Computer Engineer"
@@ -213,19 +218,11 @@ params:
           name: "View my project"
           url: "https://github.com/CERN/Quantumacy"
         content: |
-          Developed a Quantum Key Distribution simulator based on BB84 in Python. I designed the platform backend with peer-to-peer and client-server architectures and I integrated it into federated learning frameworks (OpenFL, Flower) and into a medical data homomorphic encryption system.
+                  - Developed a Quantum Key Distribution simulator, to exchange symmetric keys, based on BB84 in Python.
+                  - Developed the backend for the simulator with peer-to-peer and client-server architectures using Redis and Flask
+                  - Forked gRPC and reimplemented its transport level using my simulator to provide post-quantum encryption
+                  - Integrated my simulator into federated learning frameworks (OpenFL, Flower) and into a medical data homomorphic encryption system.
       
-      - job: "Student Ambasssador"
-        company: "Reply"
-        abbreviation: "Reply"
-        companyUrl: "https://www.reply.com/en"
-        date: "Sep 2020 - May 2022"
-        featuredLink:
-          enable: true
-          url: "https://www.reply.com/en/people/continuous-learning-culture/ambassadors"
-        content: |
-          I worked as a student ambassador for Reply, I created engaging content for students and I helped in Reply's events to promote its brand and culture.
-
   # Education
   education:
     enable: true
@@ -270,7 +267,7 @@ params:
           - "Smart Contracts"
           - "Dataset"
         links:
-          - icon: "&#129303";
+          - icon: "&#129303"
             url: https://huggingface.co/ASSERT-KTH/DISL
           - icon: fa fa-newspaper-o
             url: https://arxiv.org/abs/2403.16861
