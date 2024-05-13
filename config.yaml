@@ -267,9 +267,9 @@ params:
           - "Smart Contracts"
           - "Dataset"
         links:
-          - icon: "&#129303"
+          - icon: fa-solid fa-link
             url: https://huggingface.co/ASSERT-KTH/DISL
-          - icon: fa fa-newspaper-o
+          - icon: fa-solid fa-link
             url: https://arxiv.org/abs/2403.16861
       - title: QKDSimkit
         content: A modular Python Quantum Key Distribution simulator that emulates the BB84 protocol and provides p2p and Server-Client interfaces.
@@ -280,7 +280,7 @@ params:
           - "FastAPI"
           - "Cryptography"
         links:
-          - icon: fa fa-newspaper-o
+          - icon: fa-solid fa-link
             url: https://quantum.cern/news/announcement/quantumacy-project-investigating-privacy-preserving-forms-quantum-communication
           - icon: fab fa-github
             url: https://github.com/CERN/Quantumacy/tree/main/QKDSimkit
