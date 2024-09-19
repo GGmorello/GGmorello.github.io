@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Gabriele."
-    subtitle: "Coding the future, line by line."
-    content: "I'm a passionate software engineer researcher and student. I like to use modern technologies to make cool projects."
+    subtitle: "Building AI to test AI."
+    content: "I'm an AI engineer working on AI testing and verification. I like startups and bulding new things."
     image: /images/me.jpg
     bottomImage:
       enable: true
@@ -150,22 +150,23 @@ params:
     title: "About Me"
     image: "/images/me_palm.jpg"
     content: |-
-      I am a software engineer student with a passion for complex systems. I have a background in computer engineering and software engineering, and I have a strong interest in physics. I am currently studying at [KTH](https://kth.se/en) in Stockholm, Sweden. 
+      I am an AI engineer with a passion for complex systems. I have a background in computer engineering and software engineering, and I have a strong interest in physics. I am currently working as Founding AI Engineer at [Maihem](https://www.maihem.ai/). 
 
-      I am currently working on my thesis, focused on fine-tuning Large Language Models for synthesizing Solidity code in smart contract development.
+      I am also currently finishing my Master's thesis, on fine-tuning Large Language Models of code for synthesizing Solidity code for smart contract security.
 
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Python"
-        - "Apache Spark"
-        - "Large Language Models"
-        - "Scala"
-        - "Solidity"
         - "FastAPI"
-        - "Quantum Convolutional Neural Networks"
-        - "Generative Adversarial Networks"
+        - "Large Language Models"
+        - "Langchain"
+        - "SQL"
+        - "Docker"
+        - "Quantum Computing"
+        - "LoRA"
+        - "Hugging Face"
 
 
   # Experience
@@ -173,11 +174,27 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Founding AI Engineer"
+        company: "Maihem"
+        abbreviation: "Maihem"
+        companyUrl: "https://www.maihem.ai/"
+        date: "Jul 2024 - present"
+        featuredLink:
+          enable: true
+          name: "YC W24"
+          url: "https://www.ycombinator.com/companies/maihem"
+        content: |
+          Maihem is a platform for testing AI systems, by generating test cases and evaluating them using simulated users personas.
+          - Designed and implemented state-of-the-art LLM hallucination detectors for complex claim verification
+          - Implemented evaluation metrics for retrieval-augmented generation systems using both classical and AI methods
+          - Built and deployed internal LLM-based chatbots for testing and prototyping, with FastAPI and both proprietary and open-source LLMs.
+
+
       - job: "Research Assistant - Large Language Models"
         company: "KTH - Royal Institute of Technology"
         abbreviation: "KTH"
         companyUrl: "https://www.kth.se/en"
-        date: "Jun 2023 - present"
+        date: "Jun 2023 - Jun 2024"
         featuredLink:
           enable: true
           name: "View my team's projects"
