@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Gabriele."
-    subtitle: "Building AI to test AI."
+    subtitle: "Building AI that tests AI."
     content: "I'm an AI engineer working on AI testing and verification. I like startups and bulding new things."
     image: /images/me.jpg
     bottomImage:
